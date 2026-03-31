@@ -1,8 +1,8 @@
 # 🚀 DESN368 Tool Setup Checklist
 
 ## Progress Tracker
-- [ ] 🗂️ Personalize Your Workspace (README update)
-- [ ] 🎨 Figma Education Account & Team Access
+- [x] 🗂️ Personalize Your Workspace (README update)
+- [] 🎨 Figma Education Account & Team Access
 - [ ] 💻 CodePen Account & Profile
 - [ ] ⚡ LiveCode Profile
 - [ ] 🎁 GitHub Student Developer Pack
