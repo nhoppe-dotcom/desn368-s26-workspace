@@ -41,7 +41,7 @@
 - Sketching ideas: __4_  
 - Problem-solving: __3_  
 - Design software: _3__  
-- Giving/receiving feedback: ___
+- Giving/receiving feedback: _4__
 
 **7. Learning preference:**  
 [ ] Jump in and build  
