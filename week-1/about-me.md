@@ -3,7 +3,7 @@
 ## Background & Skills
 
 **1. Major:**  
-[Your answer here]
+[Design major]
 
 **2. Design courses completed:**  
 [x] DESN 100  
