@@ -88,7 +88,7 @@
 [ ] Server communication
 
 **13. One thing you hope to create by course end:**  
-[Your answer here]
-Getting better using code  and my skills
+[Getting better using code  and my skills ]
+
 ---
 *This intake will help me understand your background and tailor the course experience. Feel free to expand on any answers!*
