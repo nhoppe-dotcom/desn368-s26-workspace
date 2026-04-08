@@ -19,9 +19,9 @@ If you don't already have one, sign up at [github.com](https://github.com/signup
 Make your profile presentable before anything else.
 
 1. Click your avatar (top right) → **Your profile** → **Edit profile**
-2. Add your **real name** (so I know who you are!)
+2. Add your **real name** (Noah Hoppe)
 3. Add a **bio** (e.g., "DESN368 Student | Learning Web Design")
-4. Add a **profile photo** (helps me learn names!)
+4. Add a **profile photo** (Noah Hoppe)
 
 ### **Step 3: 🗂️ Create Your Workspace**
 👉 Click **"Use this template"** → **"Create a new repository"** at the top of this page.
@@ -57,8 +57,8 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 *Update these links as you complete each tool setup:*
 - **GitHub Profile:**  ⏳
 - **Workspace Repository:** [Add your repository URL here] ⏳
-- **Figma:** [Add your Figma username here] ⏳
-- **CodePen:** [Add your CodePen profile URL here] ⏳
+- **Figma:** [Noah Hoppe] ⏳
+- **CodePen:** [https://codepen.io/Noah-Hoppe] ⏳
 - **LiveCode:** [Add your LiveCode profile here] ⏳
 - **GitHub Student Pack:** [Confirm approval status here] ⏳
 
@@ -77,7 +77,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 ## 🎯 **Course Progress**
 *Check off assignments as you complete them:*
 
-- [ ] **Week 1:** S3tup & 0nb04rd1ng
+- [x] **Week 1:** S3tup & 0nb04rd1ng
 - [ ] **Week 2:** Th3 F1r5t T4g
 - [ ] **Week 3:** D0cum3nt 4rch1t3ctur3
 - [ ] **Week 4:** Th3 C4sc4d3 B3g1n5
