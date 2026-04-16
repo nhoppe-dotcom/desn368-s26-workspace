@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<article class="post-card">
+  <h1 class="post-title">The Rise of Brutalist Web Design</h1>
+  <p class="post-excerpt">An aesthetic movement that rejects decoration...</p>
+</article>
+
+<article class="post-card">
+  <h2 class="post-title">Typography Rules for Developers</h2>
+  <p class="post-excerpt">The five rules designers wish coders knew...</p>
+</article>
+.post-card {
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  border-radius: 6px;
+}
+<h3> Web Design is gowing up in Jobs  </h3>
+<header id="site-header">
+  <nav id="main-nav">
+    <a href="/">Home</a>
+    <a href="/work">Work</a>
+    <a href="/contact">Contact</a>
+  </nav>
+</header>
+
+<main id="page-content">
+  ...
+</main>
+
+<footer id="site-footer">
+  ...
+</footer
+  <div class="grid-container">
+  <div class="grid-item">Brutalist Web Design</div>
+  <div class="grid-item">Typography Rules for Developers</div>
+  <div class="grid-item">Web Design is gowing up in Jobs</div>
+</div>
