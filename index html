@@ -10,9 +10,21 @@
     <h1>My Web Design Journey</h1>
     
     <h2>Week 1</h2>
-    <a href="week-1/structer/manifesto.html">Manifesto</a>
+    <a href="week-1/structer/manifesto.html">Manifesto</a><br>
+    <a href="week-1/newspaper.html">Newspaper</a><br>
+    <a href="week-1/lost-pet.html">Lost Pet</a><br>
+    <a href="week-1/favorite-band.html">Favorite Band</a>
     
     <h2>Week 2</h2>
+    <a href="week-2/recipe.html">Recipe</a><br>
+    <a href="week-2/html-skeleton.html">HTML Skeleton</a><br>
+    <a href="week-2/html-101/building-blocks.html">Building Blocks</a><br>
+    <a href="week-2/html-101/styling-inside-out.html">Styling Inside Out</a><br>
+    <a href="week-2/html-101/tagging-content.html">Tagging Content</a><br>
+    <a href="week-2/html-101/addressing-elements.html">Addressing Elements</a><br>
+    <a href="week-2/html-101/annotating-code.html">Annotating Code</a><br>
+    <a href="week-2/html-101/nesting-hierarchy.html">Nesting Hierarchy</a>
     
     <h2>Week 3</h2>
+    <a href="week-3/styles/semantics-practice.html">Semantics Practice</a>
 </body>
