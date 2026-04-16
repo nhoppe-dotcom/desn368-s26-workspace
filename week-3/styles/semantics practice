@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ACME Supply Company</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+
+    <!-- Don't worry about the button style — it's just for the reference link -->
+    <a href="https://www.codewithharry.com/tutorial/html-semantic-tags" target="_blank" style="display:inline-block;padding:10px 20px;background:#006BA6;color:#fff;font-family:sans-serif;font-size:14px;font-weight:600;border-radius:6px;text-decoration:none;margin-bottom:24px;">Reference: HTML Semantic Tags</a>
+
+    <!--
+      ╔══════════════════════════════════════════════════════╗
+      ║         DESN 368 — Semantics Practice                ║
+      ║                                                      ║
+      ║  This page works — but it's built entirely with      ║
+      ║  <div> tags. Your job: replace each <div> with the   ║
+      ║  correct semantic HTML element.                      ║
+      ║                                                      ║
+      ║  The page should look EXACTLY the same when you're   ║
+      ║  done. Semantic HTML changes meaning, not appearance. ║
+      ║                                                      ║
+      ║  Work through the steps in order (1 → 6).            ║
+      ╚══════════════════════════════════════════════════════╝
+    -->
+
+
+    <!-- ============================================
+         STEP 1: Replace this <div> with <header>
+
+         The header contains the site title and
+         navigation. It represents the introductory
+         content at the top of the page.
+         ============================================ -->
+    <header>
+      <h1>ACME Supply Company</h1>
+
+      <!-- ============================================
+           STEP 2: Replace this <div> with <nav>
+
+           This is the site navigation — a list of
+           links that help users move around the site.
+           Note: <nav> stays INSIDE the header.
+           ============================================ -->
+      <nav>
+        <ul>
+          <li><a href="#">A Link to Someplace Fun</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+      </nav>
+      <!-- end nav -->
+
+    </header>
+    <!-- end header -->
+
+
+    <!-- ============================================
+         STEP 3: Replace this <div> with <main>
+
+         Everything between the header and footer is
+         the primary content of the page. There should
+         only be ONE <main> element per page.
+         ============================================ -->
+    <main>
+
+      <!-- ============================================
+           STEP 4: Replace BOTH of these <div>s
+           with <section>
+
+           Each one groups related content under its
+           own heading. Sections are thematic groupings
+           within the main content.
+           ============================================ -->
+      <section>
+        <h2>About Us</h2>
+        <p>
+          Welcome to ACME Supply Company! We specialize in innovative, sometimes
+          zany solutions for all your pressing needs — perfect for capturing
+          fast-moving birds or simply adding excitement to your daily routine.
+        </p>
+      </section>
+
+      <heading>
+        <h2>Our Services</h2>
+        <ul>
+          <li>Tailored Gadget Design</li>
+          <li>Free Cartoon Physics Consultation</li>
+          <li>Rocket-Powered Prototyping</li>
+          <li>24/7 Desert Delivery</li>
+        </ul>
+      </heading>
+
+      <!-- ============================================
+           STEP 5: This one has TWO parts.
+
+           a) Replace the OUTER <div> with <section>
+              (it's a thematic group — "Our Products")
+
+           b) Replace each INNER <div> with <article>
+              (each product is self-contained content
+              that could stand on its own)
+
+           Hint: you should end up with 1 <section>
+           containing 4 <article> elements.
+           ============================================ -->
+      <article>
+        <h2>Our Products</h2>
+
+        <section>
+          <h3>Rocket-Powered Roller Skates</h3>
+          <p>
+            Our classic best-seller for those who insist on speed,
+            excitement, and the occasional mid-air mishap!
+          </p>
+        </section>
+
+        <section>
+          <h3>Portable Hole Deluxe</h3>
+          <p>
+            Easily place it on any surface to create a quick escape — or
+            a convenient trap. Folds neatly for on-the-go pranks.
+          </p>
+        </section>
+
+        <section>
+          <h3>Instant Anvil™</h3>
+          <p>
+            Need to add a little comedic weight to a scene? Just pull
+            the tab and watch a full-sized anvil appear out of nowhere.
+          </p>
+        </section>
+
+        <section>
+          <h3>Canyon-Crossing Catapult</h3>
+          <p>
+            Launch yourself (or your rivals) across deep canyons.
+            Warning: results may vary, so bring a parachute!
+          </p>
+        </section>
+      </article>
+
+    </main>
+    <!-- end main -->
+
+
+    <!-- ============================================
+         STEP 6: Replace this <div> with <footer>
+
+         The footer contains copyright info and
+         secondary navigation links. It represents
+         the closing content of the page.
+         ============================================ -->
+    <footer>
+      <p>&copy; 2025 ACME Supply Company. All Rights Reserved.</p>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </footer>
+    <!-- end footer -->
+
+  </body>
+</html>
