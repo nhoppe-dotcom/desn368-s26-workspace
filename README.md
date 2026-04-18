@@ -15,7 +15,6 @@ This repo holds all my projects, exercises, and experiments from DESN 368.
 - `week-3/` — CSS foundations, Recipe styling
 
 (keep Student Info, My Toolkit, Course Progress, and Course Resources below this)
-
 ---
 
 ## 👤 **Student Information**
