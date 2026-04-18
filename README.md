@@ -3,6 +3,7 @@ Travis Masingale · Spring 2026
 
 **Welcome to Noah Hoppe code + Design **
 This is your course workspace — the place where all your code, designs, and projects live. By the end of the quarter, this repo becomes your portfolio.
+
 ---
 ## About
 I’m a graphic design student at EWU exploring web design and development.
