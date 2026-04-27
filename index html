@@ -3,28 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>desn 368 noah hoppe </title>
+    <title>DESN 368 — Noah Hoppe</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <h1>My Web Design Journey</h1>
-    
-    <h2>Week 1</h2>
-    <a href="week-1/structer/manifesto.html">Manifesto</a><br>
-    <a href="week-1/newspaper.html">Newspaper</a><br>
-    <a href="week-1/lost-pet.html">Lost Pet</a><br>
-    <a href="week-1/favorite-band.html">Favorite Band</a>
-    
-    <h2>Week 2</h2>
-    <a href="week-2/recipe.html">Recipe</a><br>
-    <a href="week-2/html-skeleton.html">HTML Skeleton</a><br>
-    <a href="week-2/html-101/building-blocks.html">Building Blocks</a><br>
-    <a href="week-2/html-101/styling-inside-out.html">Styling Inside Out</a><br>
-    <a href="week-2/html-101/tagging-content.html">Tagging Content</a><br>
-    <a href="week-2/html-101/addressing-elements.html">Addressing Elements</a><br>
-    <a href="week-2/html-101/annotating-code.html">Annotating Code</a><br>
-    <a href="week-2/html-101/nesting-hierarchy.html">Nesting Hierarchy</a>
-    
-    <h2>Week 3</h2>
-    <a href="week-3/styles/semantics-practice.html">Semantics Practice</a>
+    <header>
+        <h1>Noah Hoppe — DESN 368 Portfolio</h1>
+        <p>Welcome to my web design showcase. Browse projects from Week 1 through Week 4.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Week 1</h2>
+            <ul>
+                <li><a href="week-1/structer/manifesto.html">Manifesto</a></li>
+                <li><a href="week-1/newspaper.html">Newspaper</a></li>
+                <li><a href="week-1/lost-pet.html">Lost Pet</a></li>
+                <li><a href="week-1/favorite-band.html">Favorite Band</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Week 2</h2>
+            <ul>
+                <li><a href="week-2/recipe.html">Recipe</a></li>
+                <li><a href="week-2/html-skeleton.html">HTML Skeleton</a></li>
+                <li><a href="week-2/html-101/building-blocks.html">Building Blocks</a></li>
+                <li><a href="week-2/html-101/styling-inside-out.html">Styling Inside Out</a></li>
+                <li><a href="week-2/html-101/tagging-content.html">Tagging Content</a></li>
+                <li><a href="week-2/html-101/addressing-elements.html">Addressing Elements</a></li>
+                <li><a href="week-2/html-101/annotating-code.html">Annotating Code</a></li>
+                <li><a href="week-2/html-101/nesting-hierarchy.html">Nesting Hierarchy</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Week 3</h2>
+            <ul>
+                <li><a href="week-3/styles/semantics-practice.html">Semantics Practice</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Week 4</h2>
+            <ul>
+                <li><a href="week-4/dev-tools-HoppeNoah-wk4.html.html">Developer Tools Project</a></li>
+                <li><a href="week-4/%20recipe-in-style/recipe.html">Recipe in Style</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Last updated April 2026</p>
+    </footer>
 </body>
+</html>
