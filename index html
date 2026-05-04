@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1>Noah Hoppe — DESN 368 Portfolio</h1>
-        <p>Welcome to my web design showcase. Browse projects from Week 1 through Week 4.</p>
+        <p>Welcome to my web design showcase. Browse projects from Week 1 through Week 5.</p>
     </header>
 
     <main>
@@ -51,10 +51,17 @@
                 <li><a href="week-4/%20recipe-in-style/recipe.html">Recipe in Style</a></li>
             </ul>
         </section>
+
+        <section>
+            <h2>Week 5</h2>
+            <ul>
+                <li><a href="week-5/tribute.html">Tribute Project</a></li>
+            </ul>
+        </section>
     </main>
 
     <footer>
-        <p>Last updated April 2026</p>
+        <p>Last updated May 2026</p>
     </footer>
 </body>
 </html>
