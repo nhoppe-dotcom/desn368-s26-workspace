@@ -1,0 +1,78 @@
+body {
+  font-family: Carbon;
+  font-size: 16px;
+  font-weight: 26px;
+  font-style: 22px;
+  color: white;
+  background-color: black;
+}
+
+.book-header {
+  font-family: Carbon;
+  margin: 5px;
+  padding: 5px;
+}
+
+.genre-label {
+  font-family: Carbon;
+  margin: 5px;
+  padding: 5px;
+}
+
+.book-title {
+  font-family:Abolition;
+  font-size: 62px;
+  margin: 5px;
+  padding: 5px;
+
+}
+
+.book-author {
+  font-family: Carbon;
+  margin: 5px;
+  padding: 10px;
+}
+
+.chapter-number {
+  font-family: Carbon;
+  margin: 10px;
+  padding: 5px;
+}
+
+.chapter-title {
+  font-family: Carbon;
+  margin: 10px;
+  padding: 5px;
+}
+
+.book-meta {
+
+}
+
+.book-date {
+
+}
+
+.book-excerpt {
+
+}
+
+.book-excerpt p {
+  font-size: 18px;
+  margin: 15px;
+  padding: 10px;
+}
+
+.typography-analysis {
+
+}
+
+.typography-analysis h2 {
+  font-family: Carbon;
+  font-size: 20px;
+  
+}
+
+.typography-analysis p {
+    font-family: Carbon;
+    font-size: 18px;
