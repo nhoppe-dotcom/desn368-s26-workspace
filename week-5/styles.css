@@ -1,0 +1,28 @@
+body {
+  font-family: Inter;
+  font-size: 18px;
+  background: #DFDFDF;;
+}
+
+h1,h2 {
+  font-size: bold;
+  border: 15px;
+  padding: 10px;
+  background: #2F83A2;
+}
+.container {
+  text-align: center;
+}
+
+.date {
+  font-weight: 900;
+}
+
+a{
+  color: blue;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
