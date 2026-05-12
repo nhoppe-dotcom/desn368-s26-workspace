@@ -13,6 +13,13 @@ This repo holds all my projects, exercises, and experiments from DESN 368.
 - `week-1/` — Newspaper layout, Lost Pet flyer, Favorite Band page
 - `week-2/` — HTML 101 exercises, Recipe page, HTML Skeleton
 - `week-3/` — CSS foundations, Recipe styling
+- `week-4/`- Recipe
+- `week-5/` - CSS Selector Quest
+- `week-6/`- Tribute Page
+- `week-7/`- Grid Systems
+- `week-8/`- Product Landing
+- `week-9/`- Portfolio System
+- `week-10/`- Ship It
 
 (keep Student Info, My Toolkit, Course Progress, and Course Resources below this)
 ---
@@ -52,10 +59,10 @@ This repo holds all my projects, exercises, and experiments from DESN 368.
 - [x] **Week 1:** S3tup & 0nb04rd1ng
 - [x] **Week 2:** Th3 F1r5t T4g
 - [x] **Week 3:** D0cum3nt 4rch1t3ctur3
-- [ ] **Week 4:** Th3 C4sc4d3 B3g1n5
-- [ ] **Week 5:** F0rm5 & 1nput5
-- [ ] **Week 6:** Fl3xb0x M45t3ry
-- [ ] **Week 7:** Tr1but3 P4g3
+- [x] **Week 4:** Th3 C4sc4d3 B3g1n5
+- [x] **Week 5:** F0rm5 & 1nput5
+- [x] **Week 6:** Fl3xb0x M45t3ry
+- [x] **Week 7:** Tr1but3 P4g3
 - [ ] **Week 8:** Gr1d Sy5t3m5
 - [ ] **Week 9:** Pr0duct L4nd1ng
 - [ ] **Week 10:** P0rtf0l10 Sy5t3m
