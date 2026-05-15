@@ -1,0 +1,23 @@
+SIDEBAR TO MOBILE NAV TUTORIAL - MY RESPONSES
+==================================================
+
+Part PART:
+------------------------------
+Reflection 1:
+Sliding drawers, card based navigation, and sticky headers making sure the content stays center.
+
+Reflection 2:
+There is an order of with code They are superior to buttons for state management, offering native "checked" visual cues and CSS :checked styling capabilities for interactive UIs.  
+
+Reflection 3:
+ A fixed website will maintain its original width, causing content to overflow the screen boundaries, which forces horizontal scrolling.
+
+Reflection 4:
+The main difference is that width: 100% forces an element to be as wide as its parent container, while max-width: 100% allows an element to be smaller than its parent but prevents it from growing larger
+
+Reflection 5:
+It avoids the browsers layout and paint cycles moving the workload. 
+
+
+==================================================
+Exported: 5/15/2026, 1:35:56 PM
