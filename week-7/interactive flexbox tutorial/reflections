@@ -1,0 +1,31 @@
+<!--
+═══════════════════════════════════════════════
+  FLEXBOX TUTORIAL REFLECTIONS
+═══════════════════════════════════════════════
+
+Part A: HTML Scaffold
+─────────────────────────────────────────────
+some advantages that I have seen is accessibility and unique styling.  An ID is unique to a single element per page, while a class can be applied to multiple elements.
+
+Part B: Flexbox Layout
+─────────────────────────────────────────────
+Depending on the content Width is a rigid setting for general elements, whereas flex-basis is the flexible starting point  specifically for flex items.
+
+Part C: Sticky Sidebar
+─────────────────────────────────────────────
+position: fixed is global staying in one spot on your screen regardless of what else scrolls.  position: sticky is local staying in one spot only until its parent container leaves the screen.
+
+Part D: Anchor Links
+─────────────────────────────────────────────
+The initial page layout and anchor link navigation breaks. CSS solution that acts as a buffer zone for scrolling.
+
+Part E: Decorative Icons
+─────────────────────────────────────────────
+Decorative elements colors, illustrations, borders are layered in a way that prioritizes, rather than competes with, core content. Adjust brightness, contrast, and color vibrancy to enhance accessibility.
+
+Part F: Finishing Touches
+─────────────────────────────────────────────
+One improvement is readability and consistently. Because easy to read and each section as the same were code makes it easer when doing multiple sections.
+
+═══════════════════════════════════════════════
+-->
