@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css-reset-research</title>
+  </head>
+  <body>
+<h1> css-reset-research notes</h1>
+    <p> articles </p>
+    <h2>Historical Foundation</h2>
+    <p>Why Josh's version over Eric's?</p>
+    <p>Josh Comeau's modern CSS reset is preferred over Eric Meyer's 2007 nuclear approach because it is more intentional, offering a smarter box-sizing model and better accessibility by retaining focus outlines. It provides a more practical, modern foundation by preserving necessary default styles and utilizing low specificity selectors, whereas older resets strip everything down to a blank slate</p>
+    <p>Why reset at all?</p>
+    <p>Developers created CSS resets to counter inconsistent browser defaults, specifically differing indentations for lists, variable heading margins, and unpredictable line heights. These discrepancies, which required time consuming, case by case fixes, prompted the use of a "reset" to establish a consistent starting point for layouts.</p>
+    <p>We think of our CSS as modifying the default look of a document but with a “reset” style sheet, we can make that default look more consistent across browsers, and thus spend less time fighting with browser defaults. inherit code a feature where a new class adopts the properties and behaviors of an existing class.</p>
+    <h2>Modern Evolution</h2>
+    <p> Our .box element has width: 100%. Because its parent is 200px wide, that 100% will resolve to 200px. But where does it apply that 200px width. By default, it will apply that size to the content box. If you're not familiar, the content box is the rectangle in the box model that actually holds the content, inside the border and the padding. Josh Comeau updates baseline styling to reflect that modern browsers. The CSS rest </p>
+    <pre>
+      <code>
+        /* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+*:not(dialog) {
+  margin: 0;
+}
+
+/* 3. Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  /* 4. Increase line-height */
+  line-height: 1.5;
+  /* 5. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 6. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 7. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 8. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/*
+  10. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+      </code>
+    </pre>
+    <h3>Wider Landscape</h3>
+    <p>Siolon’s Global Reset. This method omits reset styles involving inline and block display elements. Also, remember to explicitly set margin and padding styles after implementing the reset. Note the unique margin-left 40px; declaration for lists and blockquotes, and the margin 20px 0; for headings, forms, and other elements:</p>
+    <pre>
+      <code>
+        * {  
+	vertical-align: baseline;  
+	font-family: inherit;  
+	font-style: inherit;  
+	font-size: 100%;  
+	border: none;  
+	padding: 0;  
+	margin: 0;  
+	}  
+body {  
+	padding: 5px;  
+	}  
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {  
+	margin: 20px 0;  
+	}  
+li, dd, blockquote {  
+	margin-left: 40px;  
+	}  
+table {  
+	border-collapse: collapse;  
+	border-spacing: 0;  
+	}
+      </code>
+    </pre>
+    <p> Yahoo CSS Reset.eliminates inconsistently applied browser styling for many key (X)HTML elements.</p>
+    <pre>
+      <code>
+        body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	padding: 0;
+	margin: 0;
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+fieldset,img { 
+	border: 0;
+	}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-weight: normal;
+	font-style: normal;
+	}
+ol,ul {
+	list-style: none;
+	}
+caption,th {
+	text-align: left;
+	}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	font-size: 100%;
+	}
+q:before,q:after {
+	content:'';
+	}
+abbr,acronym { border: 0;
+	}
+      </code>
+    </pre>
+    <h4>Critical Questions</h4>
+    <h5>Questions</h5>
+     <p>Why reset at all? Link tag? Import? Inline?</p>
+    <p>Browsers come with built in default styles. A CSS reset removes or neutralizes these inconsistencies so you have a clean, so you start from scratch building your own custom layouts. Link tag helps by renders your website much faster. Importh helps create a chain of requests that slows down page loading. Inline Styles are applied directly to HTML elements. While they have the highest CSS specificity, they bloat your HTML, cannot be cached by the browser for reuse, and make global design updates difficult to manage.</p>
+    <p>What's a CSS boilerplate? (vs. a reset)</p>
+    <p>A CSS boilerplate is a starter set of files and rules that include everything you need to begin a project, whereas a CSS reset is a specific subset of code designed solely to strip away browser-default styling</p>
+    
+    <p>Why use a boilerplate? (When does it help/hurt?)</p>
+    <p>It saves time by providing a tested foundation but can cause problems if applied blindly to unique situations. The advantages are saves time and Ensures Consistency.The drawbacks is creates hiden traps. </p>
+    
+    <p>Why is Normalize.css different from resets? (Philosophy shift)</p>
+    <p>Normalize.css differs from traditional resets because it favors preserving and standardizing useful browser defaults over wiping them out. While a reset creates a blank slate by removing all styling, normalization fixes browser inconsistencies</p>
+    <h6>Links to sources</h6>
+    <a
+          herf=https://meyerweb.com/eric/thoughts/2007/04/18/reset-reasoning/>Eric Meyer's Reset Reasoning </a>
+    <a
+      herf=https://www.joshwcomeau.com/css/custom-css-reset/>Modern Evolution </a>
+    <a
+      herf=https://perishablepress.com/a-killer-collection-of-global-css-reset-styles/>Wider Landscape</a>
+  </body>
+</html>
