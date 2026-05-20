@@ -15,36 +15,22 @@ html {
 }
 
 @media only screen and (max-width: 400px) {
-  .mobile-header {
-  display: flex;
-}
   .container {
     flex-direction: column; 
     padding: 10px;
   }
-  .sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: auto;
-  width: 280px;
-  transition: transform 0.3s ease;
-}
-  
-}
   @media screen and (min-width: 1440px) {
   .container {
     width: 1200px; 
     margin: 0 auto; 
     display: grid;
-
+    grid-template-columns: repeat(3, 1fr);
   }
-
+}
   .sidebar {
     display: none; 
   }
 }
-
 body {
   font-family: Inter;
   line-height: 48px;
@@ -53,7 +39,7 @@ body {
 
 header {
   font-size: 36px;
-  font-family: inter;
+  font-famiily: inter;
   background: #2A3BFF;
   color: white;
   padding: 25px;
@@ -70,28 +56,23 @@ header h1 {
   background: #F48B2F;
 }
 
-#maze{
+  #maze{
   color: white;
   background: #EA3F3F;
 }
-
 #layouts{
   background:#D533B8;
 }
-
 #images{
   background:#26E5FA;
 }
-
 #media-queries{
   background:#D3DF22;
 }
-
 #patterns{
   color: white;
   background:#003BFD;
 }
-
 .main-wrapper {
   max-width: 1440px;
   margin: 0 auto; 
@@ -168,10 +149,6 @@ footer {
   vertical-align: middle; 
   padding: 10px;
 }
-.content img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+.media-header{
+  display: flex;
 }
