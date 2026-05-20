@@ -87,7 +87,7 @@ header {
 }
 
 header h1 {
-  background-image: url('https://snipboard.io/OKbtSg.jpg');
+  background-image: url("https://snipboard.io/OKbtSg.jpg");
   font-size: 50px;
   margin-bottom: 10px;
 }
