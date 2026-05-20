@@ -19,7 +19,9 @@ html {
     flex-direction: column; 
     padding: 10px;
   }
-  @media screen and (min-width: 1440px) {
+}
+
+ @media screen and (min-width: 1440px) {
   .container {
     width: 1200px; 
     margin: 0 auto; 
