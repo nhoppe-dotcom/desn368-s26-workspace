@@ -44,9 +44,9 @@ html {
   color: white;
   line-height: 1;
  }
- .sidebar-toggle:checked ~ .sidebar {
+  .sidebar-toggle:checked ~ .sidebar {
   transform: translateX(0);
- }
+}
  .sidebar-toggle:checked ~ .sidebar::before {
   content: '';
   position: fixed;
@@ -87,7 +87,7 @@ header {
 }
 
 header h1 {
-  background-image: url('https://snipboard.io/OKbtSg.jpg');
+  background-image: url('https://snipboard.io/S7ALVi.jpg');
   font-size: 50px;
   margin-bottom: 10px;
 }
