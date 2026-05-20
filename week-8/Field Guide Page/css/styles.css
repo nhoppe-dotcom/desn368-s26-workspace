@@ -27,7 +27,7 @@ html {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-  .sidebar {
+.sidebar {
     display: none; 
   }
 }
@@ -56,7 +56,7 @@ header h1 {
   background: #F48B2F;
 }
 
-  #maze{
+#maze{
   color: white;
   background: #EA3F3F;
 }
