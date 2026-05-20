@@ -28,11 +28,11 @@ html {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-}
+
 .sidebar {
     display: none; 
 }
-
+}
 body {
   font-family: Inter;
   line-height: 48px;
