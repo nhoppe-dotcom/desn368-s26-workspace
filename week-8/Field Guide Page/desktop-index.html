@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feild guide</title>
+  </head>
+<body>
+  <header>
+    <h1>Pac-man Field Guide</h1>
+  </header>
+
+  <main class="container">
+    <nav class="sidebar">
+      <h2>Sections</h2>
+      <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="maze">The Maze Environment</a></li>
+        <li><a href="#layouts">Survival Mechanics: Power Pellets</a></li>
+        <li><a href="#images">The Explorer: Pac-Man</a></li>
+        <li><a href="#media-queries">The Hostile Specters (Ghosts)</a></li>
+        <li><a href="#patterns">Bonus Rations: Fruit</a></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <section id="intro">
+        <h2>Welcome to the dangerous, neon lit corridors of Pac-Land, where quick wits are your only defense. This guide is designed to help you navigate the treacherous mazes and survive the relentless haunting of the Ghost Gang. Keep your eyes sharp and your hunger sharper, adventurer.</h2>
+        <pre>
+          <code>
+            .header{          
+            font-size: 36px;             
+            font-family: Inter;
+            font-weight: bold;           
+            text-align: center;             
+            color: white;            
+            margin-top: 10px;       
+            }
+          </code>
+        </pre>
+        <img src="https://snipboard.io/STZnqW.jpg" alt="Responsive
+  Design Concept">
+        
+      </section>
+      
+      <section id="maze">
+        <h3>The Maze Environment</h3>
+        <ul>
+          <li><strong>Structure:</strong> A enclosed, two-dimensional structure featuring connected passages and a central "ghost pen".</li>
+          <li><strong>Hazards:</strong> Beware of the "tunnel" on the far left and right; while it allows for quick traversal, it often forces a confrontation with ghosts in tight quarters.</li>
+          <li><strong>Strategy:</strong> Prioritize clearing the bottom half of the maze early, as it offers the fewest exit routes and highest threat density.</li>
+        </ul>
+        <img src="https://snipboard.io/mMocUB.jpg" alt="Flexible
+   Layouts">
+        <pre>
+          <code>
+             .content{  
+              flex: 1;          
+            padding: 15px;            
+            flex-grow: 1;                
+            flex-shrink: 1;            
+            flex-basis: auto;            
+            max-width: 100%;             
+            border-radius: 5px;            
+            margin-right: 20px;           
+            margin-left: 20px;         
+            } 
+          </code>
+        </pre>
+      </section>
+      
+      <section id="layouts">
+        <h4>Survival Mechanics: Power Pellets</h4>
+        <ul>
+          <li><strong>Effect:</strong> Consuming these large pellets induces panic in the spectral inhabitants, causing them to turn blue and reverse direction.</li>
+          <li><strong>Tactics:</strong>Do not waste these limited resources; activate them only when trapped or to secure bonus points by consuming the vulnerable, fleeing spirits.</li>
+          <li><strong>Warnings:</strong> Their effectiveness is temporary and significantly shortened in higher-level territories.</li>
+        </ul>
+        <pre>
+          <code>
+            p{            
+           font-size: 20px;             
+          line-height: 1.6;           
+          margin-bottom: 15px;           
+         padding: 10px;           
+         font-family: "Inter”;            
+         width: 50%;       
+            } 
+          </code>
+        </pre>
+        <img src="https://snipboard.io/ip0GJA.jpg" alt="layout">
+      </section>
+      
+      <section id="images">
+        <h5>The Explorer: Pac-Man</h5>
+        <ul>
+          <li><strong>Profile:</strong> An insatiable, yellow, disc-shaped entity that thrives on high-energy dot consumption.</li>
+          <li><strong>Behavior:</strong> Moves in straight lines and is incapable of turning around instantly, requiring a junction to change direction.</li>
+          <li><strong>Notes:</strong> If cornered, the explorer must rely on sheer speed to maneuver out of immediate danger, as contact with hostile entities results in instant loss of vitality.</li>
+        </ul>
+        <pre>
+          <code>
+            header {            
+            background: #26E5FA;          
+            color: black;           
+            padding: 10px;         
+            align-items: center;                     
+            }
+          </code>
+        </pre>
+        <img src="https://snipboard.io/h4aY5G.jpg" alt="Responsive
+  Images">
+      </section>
+      
+      <section id="media-queries">
+        <h6>The Hostile Specters (Ghosts): </h6>
+        <ul>
+          <li><strong>Three are 4 ghost they are  Blinky (Red):</strong>The "Shadow" - a relentless tracker that targets your exact location and chases with high aggression.</li>
+          <li><strong>Pinky (Pink):</strong> The "Ambusher" - constantly attempts to get ahead of you, targeting the space just in front of your movement path.</li>
+          <li><strong>Inky (Cyan):</strong>The "Capricious" - possesses a bizarre AI that merges your position with Blinky's, acting erratically based on both to ambush from unexpected angles.</li>
+          <li><strong>Clyde (Orange):</strong> The "Pokey" - behaves aggressively until getting close, then cowardly retreats back toward the lower-left corner.</li>
+        </ul>
+        <pre>
+          <code>
+            section{             
+            position: relative;       
+            margin-bottom: 50px;          
+            background-color: #D3DF22;            
+            margin: 20px 0;          
+            margin-right: 10%;         
+            margin-left: 10%;            
+            padding: 20px;           
+            padding-left: 40px;           
+            border-radius: 5px;    
+            }
+          </code>
+        </pre>
+        <img src="https://snipboard.io/VqOhJQ.jpg" alt="Media Queries">
+      </section>
+      
+      <section id="patterns">
+        <h2>Bonus Rations: Fruit</h2>
+        <ul>
+          <li><strong>Appearance:</strong> Transient fruit items appear momentarily in the center of the maze to boost scores.</li>
+          <li><strong>Recommendation:</strong>Prioritize these items whenever safe, as they significantly bolster high-score efforts without increasing risk factors.</li>
+        </ul>
+        <pre>
+          <code>
+            footer {         
+            display: flex;          
+            flex-wrap: wrap;          
+            justify-content: center;       
+            color: #41C3E6;           
+            margin-top: 10px;            
+            margin-bottom: 50px;          
+            border-radius: 5px;           
+            margin-left: 40%;            
+            margin-right: 40%;      
+            }
+          </code>
+        </pre>
+        <img src="https://snipboard.io/uVdYRP.jpg" alt="Responsive
+  Patterns">
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+  <footer>Veiw portfolio</footer> 
+ <footer> Read My Case Study</footer>
+</div>
+    <p>Copyright line (e.g., © 2025 Noah Hoppe | Interactive Field Guide)</p>
+  </footer>
+</body>
+</html>
