@@ -32,4 +32,6 @@ footer{
   background: #2F83A2;
   color:black;
   height: 50px;
+  text-align: center;
+  padding: 10px;
 }
