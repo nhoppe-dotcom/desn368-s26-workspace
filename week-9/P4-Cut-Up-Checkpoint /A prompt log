@@ -1,4 +1,5 @@
 The 4-5 prompts I actually ran in my AI agent
+Promt 1: 
 You are helping me cut a Figma design into a P4 landing page for DESN 368.
 Hold the following P4 rules in context for every reply that follows.
 
@@ -35,7 +36,7 @@ Inside <main>, exactly five sections in this order:
 Wrap @keyframes animations in @media (prefers-reduced-motion: no-preference).
 
 == MY DESIGN ==
-Here is my Figma file: [https://www.figma.com/design/V9KlPhym0y376R26w7lQZB/P4-Product-Landing-Page---Noah-Hoppe?node-id=1-4&t=yoAJzsyfsXjrqEVu-1]
+Here is my Figma file: [https://www.figma.com/design/V9KlPhym0y376R26w7lQZB/P4-Product-Landing-Page---Noah-Hoppe?node-id=2025-60&t=yoAJzsyfsXjrqEVu-1]
 
 Use the Figma MCP (get_figma_data or equivalent) to read the file. Then,
 based on the real layer/frame names you find, do the mapping.
@@ -51,10 +52,11 @@ Do not write any HTML yet. First, reply with:
      (so I know what to cut or rework on the design side).
   5. Any motion annotations or text labels you saw in the Figma that
      describe animation or hover behavior.
-     
+
      Here is my Key: 
 
-    prompt2: Using the rules and the map you confirmed, write the full HTML for
+Prmpt 2:
+Using the rules and the map you confirmed, write the full HTML for
 index.html in this folder.
 
 Start with DOCTYPE, lang="en", viewport meta, <title>, and a link to
@@ -65,7 +67,8 @@ based on what each image actually shows in Figma.
 
 HTML only. No CSS yet. Write the file directly using your file-edit tool.
 
-Prompt 3: Inside <section id="data">, replace any placeholder with a real
+Prompt:3
+Inside <section id="data">, replace any placeholder with a real
 <table> using the columns and rows shown in my Figma data section.
 Read those columns and rows from the Figma file via the MCP if they're
 laid out as text in the design.
@@ -85,6 +88,7 @@ MCP for the actual field labels. Use action="#" for now (no backend).
 
 Update index.html directly.
 
+prompt:4
 Look at the motion notes/annotations from my Figma (you saw them via
 the MCP). Implement two of them:
 
@@ -93,14 +97,12 @@ the MCP). Implement two of them:
   2. ONE transform on :hover (or :focus) matching another note, applied
      to the relevant element by class.
 
-Prompt 4: Create css/styles.css if it doesn't exist and link it from index.html
+Create css/styles.css if it doesn't exist and link it from index.html
 if the link isn't there already. Use class names that already exist in
 my HTML — don't invent new ones. Respect prefers-reduced-motion (per
 the rule you already have).
 
 Write the files directly.
 
-Add images to website 
-
-I had to fix Divs instead of semantic tags, I had to go back in figma to fix some by nameing some of the iteams. And fix the missing alt="image.  
-One thing that mad the cut-up hard then it should be is making sure that I did not forget any thing.
+I had to fix Divs instead of semantic tag and had to images to my webpage missing the alt:"image".
+One thing I had to fix in figma labaling some of my sections.
