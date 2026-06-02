@@ -1,0 +1,106 @@
+The 4-5 prompts I actually ran in my AI agent
+You are helping me cut a Figma design into a P4 landing page for DESN 368.
+Hold the following P4 rules in context for every reply that follows.
+
+== P4 REQUIRED STRUCTURE ==
+Outer:
+  <header id="header">
+    <img id="header-img" alt="...">
+    <nav id="nav-bar">
+      <a class="nav-link">...</a> (minimum 3 nav-link anchors)
+    </nav>
+  </header>
+  <main> ... </main>
+  <footer> ... </footer>
+
+Inside <main>, exactly five sections in this order:
+  <section id="hero">     -- value proposition + primary CTA
+  <section id="video">    -- embedded video
+  <section id="features"> -- repeating <article> cards
+  <section id="data">     -- contains <table id="data-table">
+  <section id="contact">  -- contact form
+
+== TAG RULES ==
+- Use <article> for repeating self-contained items (feature cards).
+- Use <section> for thematic groupings with a heading.
+- Every <img> needs descriptive alt text (5-10 words). Never alt="".
+- Every form <input> has a paired <label for=id>. No placeholder-as-label.
+- Email input: type="email" required.
+- Submit button: id="submit".
+- Data table: id="data-table" with <thead> and <tbody>.
+- The data table must scroll horizontally on mobile (wrap in a div with
+  overflow-x: auto).
+
+== MOTION ==
+Wrap @keyframes animations in @media (prefers-reduced-motion: no-preference).
+
+== MY DESIGN ==
+Here is my Figma file: [https://www.figma.com/design/V9KlPhym0y376R26w7lQZB/P4-Product-Landing-Page---Noah-Hoppe?node-id=1-4&t=yoAJzsyfsXjrqEVu-1]
+
+Use the Figma MCP (get_figma_data or equivalent) to read the file. Then,
+based on the real layer/frame names you find, do the mapping.
+
+== CONFIRMATION ==
+Do not write any HTML yet. First, reply with:
+  1. The 5 section IDs you'll put inside <main>, in order, mapped to
+     the actual top-level frames you found in my Figma.
+  2. The required IDs/classes you'll bake into the scaffold (list them).
+  3. Which Figma frames/components you intend to map to <article> tags
+     (cite their real layer names from the file).
+  4. Any Figma frame that does NOT fit the P4 required structure
+     (so I know what to cut or rework on the design side).
+  5. Any motion annotations or text labels you saw in the Figma that
+     describe animation or hover behavior.
+     
+     Here is my Key: 
+
+    prompt2: Using the rules and the map you confirmed, write the full HTML for
+index.html in this folder.
+
+Start with DOCTYPE, lang="en", viewport meta, <title>, and a link to
+css/styles.css. Pull real text from my Figma via the MCP for headlines,
+button labels, and nav link labels — don't invent placeholder text if the
+real content is in the file. Write descriptive alt text on every image
+based on what each image actually shows in Figma.
+
+HTML only. No CSS yet. Write the file directly using your file-edit tool.
+
+Prompt 3: Inside <section id="data">, replace any placeholder with a real
+<table> using the columns and rows shown in my Figma data section.
+Read those columns and rows from the Figma file via the MCP if they're
+laid out as text in the design.
+
+Use <th scope="col"> for the header row. Wrap the table in
+<div class="table-scroll" style="overflow-x: auto;"> so it scrolls
+on mobile. (Apply the rest of the P4 table rules you already have.)
+
+Update index.html directly. Don't change anything else in the file.
+
+Inside <section id="contact">, build the contact form using the
+P4 form rules you already have (paired label/input, type="email"
+required, id="submit", no placeholder-as-label).
+
+Match the fields shown in my Figma — check the form section via the
+MCP for the actual field labels. Use action="#" for now (no backend).
+
+Update index.html directly.
+
+Look at the motion notes/annotations from my Figma (you saw them via
+the MCP). Implement two of them:
+
+  1. ONE @keyframes animation matching one note, applied to the
+     relevant element by class.
+  2. ONE transform on :hover (or :focus) matching another note, applied
+     to the relevant element by class.
+
+Prompt 4: Create css/styles.css if it doesn't exist and link it from index.html
+if the link isn't there already. Use class names that already exist in
+my HTML — don't invent new ones. Respect prefers-reduced-motion (per
+the rule you already have).
+
+Write the files directly.
+
+Add images to website 
+
+I had to fix Divs instead of semantic tags, I had to go back in figma to fix some by nameing some of the iteams. And fix the missing alt="image.  
+One thing that mad the cut-up hard then it should be is making sure that I did not forget any thing.
