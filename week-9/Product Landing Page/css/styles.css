@@ -44,8 +44,9 @@ h2,div.product-card{
   background-color: #B27F7F;
 }
 .product-card { 
-  background: white; 
-  padding: 15px; 
+  background: white;
+  width: 150px;
+  padding: 150px; 
   text-align: center; 
   border: 1px solid #ddd; 
 }
