@@ -1,5 +1,5 @@
-The Threshold: Answered in 3-5 sentences minimum:
-The Pit: Answered in 3-5 sentences minimum:
-The Pivot: Answered in 3-5 sentences minimum:
-The Process: Answered in 3-5 sentences minimum:
-The Future: Answered in 3-5 sentences minimum:
+The Threshold: Answered in 3-5 sentences minimum: I started thinking about how i should make the layout. where things might go. And making sure everything works whith the links.
+The Pit: Answered in 3-5 sentences minimum:Try to make sure that mobile versions works on some of my projects.try to adjust the sidebar. makeing sure that my links open a new page.
+The Pivot: Answered in 3-5 sentences minimum: I used ai assistance when try to make the mobile version on product landing page. I also look at my notes on how to make sure my css is linked. As well as addding an image in the header.  
+The Process: Answered in 3-5 sentences minimum: I fit looked at pass assigments to help me out. I took it step-by step and did a little resurch on how to do some of things needed in some of my code. Then put the code in github and synic it.
+The Future: Answered in 3-5 sentences minimum: In futere i like to fix some of the spaceing on some of the projects. Practice on makeing mobile verson on some of the assiginments. Incuding some practice on the formate on some of my code. 
