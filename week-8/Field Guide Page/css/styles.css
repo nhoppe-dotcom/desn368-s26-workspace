@@ -32,6 +32,12 @@ html {
   transition: transform 0.3s ease;
   z-index: 1000;
  }
+ .mobile-navbar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+ }
  .close-btn {
   display: block;
   position: absolute;
