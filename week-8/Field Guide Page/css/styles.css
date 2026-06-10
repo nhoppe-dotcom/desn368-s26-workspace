@@ -70,6 +70,10 @@ html {
 .sidebar {
   display: flex; 
 }
+navbar{
+  position:sticky;
+  top: 0;
+}
 }
 body {
   font-family: Inter;
